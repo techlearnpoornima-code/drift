@@ -1,0 +1,16 @@
+{
+  "name": "drift",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "setup:all": "npm run setup:backend && npm run setup:frontend",
+    "setup:backend": "cd backend && uv sync",
+    "setup:frontend": "cd frontend && npm install",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && uv run python run.py",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

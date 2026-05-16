@@ -1,0 +1,128 @@
+Quantum Computing: Physical Principles and Current State
+
+1. QUBITS AND QUANTUM STATES
+
+A qubit is the fundamental unit of quantum information. Unlike a classical bit, which is
+either 0 or 1, a qubit can exist in a superposition of both states simultaneously. This
+superposition is described by a quantum state |ψ⟩ = α|0⟩ + β|1⟩, where α and β are
+complex amplitudes satisfying |α|² + |β|² = 1. Measurement collapses the qubit to
+either |0⟩ with probability |α|² or |1⟩ with probability |β|².
+
+Superposition is a property of the qubit while unmeasured. Measurement irreversibly
+destroys the superposition — this is the measurement problem and is not a technology
+limitation but a fundamental feature of quantum mechanics.
+
+2. ENTANGLEMENT
+
+Two qubits are entangled when their quantum states cannot be described independently.
+The Bell state |Φ+⟩ = (|00⟩ + |11⟩)/√2 is a maximally entangled two-qubit state.
+Measuring one qubit instantly determines the state of the other, regardless of physical
+separation. This correlation is non-local but cannot be used to transmit information
+faster than light — this is established by the no-communication theorem.
+
+Entanglement is a resource for quantum computation and quantum communication. It is
+destroyed by decoherence (unwanted interaction with the environment).
+
+3. QUANTUM GATES
+
+Quantum computation proceeds by applying unitary transformations (gates) to qubits.
+Common single-qubit gates include:
+- Hadamard (H): puts a qubit into equal superposition
+- Pauli-X: equivalent to a classical NOT gate
+- T gate (π/8 gate): introduces a phase of e^(iπ/4)
+
+The CNOT (controlled-NOT) gate is the standard two-qubit gate. Together with
+single-qubit gates, it forms a universal gate set sufficient for any quantum computation.
+
+Gate fidelity measures how closely a physical gate implementation matches the ideal
+unitary. State-of-the-art superconducting qubits achieve single-qubit gate fidelities
+above 99.9% and two-qubit gate fidelities in the range of 99.0–99.7%.
+
+4. DECOHERENCE AND COHERENCE TIMES
+
+Decoherence is the loss of quantum superposition due to unwanted interaction with the
+environment. It is the primary obstacle to practical quantum computation.
+
+Coherence time is quantified by two parameters:
+- T1 (energy relaxation time): time for a qubit to decay from |1⟩ to |0⟩
+- T2 (dephasing time): time for phase information to be lost; T2 ≤ 2×T1
+
+Leading superconducting qubit platforms (Google, IBM, IQM) report T1 times in the
+range of 100–500 microseconds and T2 times of 50–300 microseconds as of 2024.
+Trapped-ion systems achieve T2 times of seconds to minutes but have slower gate
+operation times of approximately 10–100 microseconds per two-qubit gate.
+
+5. QUANTUM ERROR CORRECTION
+
+Physical qubits are noisy. Quantum error correction (QEC) encodes one logical qubit
+across multiple physical qubits to detect and correct errors without measuring the
+logical state directly.
+
+The surface code is the leading QEC scheme for superconducting qubits. It encodes one
+logical qubit in a 2D lattice of physical qubits. The code distance d determines
+fault tolerance: a distance-d surface code can correct up to ⌊(d−1)/2⌋ errors.
+
+The threshold theorem states that if physical gate error rates are below a threshold
+(approximately 1% for the surface code), arbitrarily long quantum computations can be
+performed with exponentially low logical error rates by increasing code distance.
+
+A commonly cited estimate is that one fault-tolerant logical qubit requires
+approximately 1,000–10,000 physical qubits depending on the target logical error rate
+and physical error rates. This ratio is called the qubit overhead.
+
+6. QUANTUM ADVANTAGE AND SUPREMACY
+
+Quantum computational advantage refers to performing a specific task faster than any
+known classical algorithm. Google's 2019 Sycamore experiment claimed quantum supremacy
+by sampling from a random quantum circuit in 200 seconds, a task estimated to take
+10,000 years on a classical supercomputer at the time. IBM later revised this classical
+simulation estimate significantly downward, and subsequent work reduced the classical
+runtime further — the precise magnitude of advantage for that specific task remains
+contested.
+
+Shor's algorithm factors an N-bit integer in polynomial time O((log N)³), exponentially
+faster than the best known classical algorithm. It requires a fault-tolerant quantum
+computer with thousands of logical qubits to threaten RSA-2048 — a scale not achieved
+as of 2024.
+
+Grover's algorithm provides a quadratic speedup for unstructured search: searching
+N items in O(√N) time versus O(N) classically. This speedup is provably optimal for
+unstructured search — no quantum algorithm can do better.
+
+7. QUBIT MODALITIES
+
+Superconducting qubits: Based on Josephson junctions operating near absolute zero
+(~15 millikelvin). Fast gate times (~10–50 nanoseconds). Short coherence times relative
+to trapped ions. Dominant platform at Google, IBM, IQM, and Rigetti.
+
+Trapped ions: Individual atomic ions (typically ytterbium or barium) held by
+electromagnetic fields. Long coherence times (seconds). Slower gate operations than
+superconducting qubits. Used by IonQ, Quantinuum (formerly Honeywell), and Oxford
+Ionics.
+
+Photonic qubits: Encode information in photon polarisation or path. Operate at room
+temperature. Challenges include probabilistic two-qubit gates and photon loss.
+PsiQuantum and Xanadu are leading photonic quantum computing companies.
+
+Neutral atoms: Individual atoms trapped in optical tweezers. Demonstrated high-fidelity
+entanglement across arrays of up to ~1,000 qubits as of 2023. QuEra Computing and
+Pasqal are key companies in this space.
+
+8. CURRENT SCALE AND LIMITATIONS
+
+IBM's Condor processor (2023) contains 1,121 physical qubits. Utility-scale quantum
+computation on problems beyond classical simulation reach has been demonstrated only
+for specific, narrow tasks. General-purpose fault-tolerant quantum computing requires
+millions of physical qubits — this has not been achieved.
+
+Quantum volume is a hardware-agnostic benchmark introduced by IBM that measures the
+largest square random circuit a device can execute with greater than 2/3 fidelity.
+Higher quantum volume indicates better performance. It captures qubit count, connectivity,
+and gate fidelity simultaneously.
+
+The quantum computing field distinguishes three eras:
+- NISQ (Noisy Intermediate-Scale Quantum): current era; 50–1,000+ noisy qubits without
+  full error correction; limited depth circuits
+- Early fault-tolerant: small numbers of logical qubits with partial error correction
+- Fully fault-tolerant: millions of physical qubits, full error correction, capable of
+  running Shor's and other demanding algorithms

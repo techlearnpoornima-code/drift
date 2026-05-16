@@ -1,0 +1,94 @@
+CRISPR-Cas9 Gene Editing: Mechanism and Applications
+
+OVERVIEW
+CRISPR-Cas9 is a prokaryotic immune defense system repurposed as a precision gene
+editing tool. It was first demonstrated as a programmable genome editor in human
+cells in 2013 by the Zhang lab at the Broad Institute and simultaneously by the
+Doudna-Charpentier group. The system enables targeted double-strand breaks (DSBs)
+at specific genomic loci with single-nucleotide precision.
+
+CORE COMPONENTS
+The Cas9 protein is an RNA-guided endonuclease derived from Streptococcus pyogenes
+(SpCas9). It has two nuclease domains: HNH, which cleaves the strand complementary
+to the guide RNA, and RuvC, which cleaves the non-complementary strand. Both
+domains must be active to produce a blunt-ended double-strand break.
+
+The guide RNA (gRNA) is a synthetic fusion of two naturally occurring RNA molecules:
+the CRISPR RNA (crRNA) and the trans-activating crRNA (tracrRNA). The spacer region
+of the crRNA (20 nucleotides) is designed to match the target DNA sequence. The
+tracrRNA scaffold anchors the complex to Cas9.
+
+The protospacer adjacent motif (PAM) is a short DNA sequence (5'-NGG-3' for SpCas9)
+immediately downstream of the target site on the non-template strand. PAM recognition
+is required for Cas9 binding and cleavage. Sequences lacking a PAM cannot be cleaved
+by SpCas9 regardless of gRNA complementarity.
+
+MECHANISM OF ACTION
+1. The gRNA is loaded into Cas9, forming a ribonucleoprotein (RNP) complex.
+2. The RNP complex scans double-stranded DNA for PAM sequences.
+3. On PAM detection, Cas9 locally unwinds the DNA and checks for complementarity
+   between the gRNA spacer and the protospacer.
+4. If complementarity is sufficient (seed region: bases 1-12 proximal to PAM are
+   most critical), Cas9 undergoes conformational activation.
+5. HNH cleaves the complementary strand; RuvC cleaves the non-complementary strand,
+   producing a blunt DSB 3 base pairs upstream of the PAM.
+
+DNA REPAIR PATHWAYS AFTER CLEAVAGE
+Non-Homologous End Joining (NHEJ): The dominant repair pathway in most cell types.
+NHEJ is error-prone and frequently introduces insertions or deletions (indels) at
+the cut site. Indels in a coding exon typically cause frameshift mutations leading
+to premature stop codons and loss-of-function alleles. NHEJ efficiency is high
+(often >70% editing frequency in cell culture).
+
+Homology-Directed Repair (HDR): An alternative pathway that uses a provided DNA
+template to introduce precise edits. HDR requires a homology donor (single-stranded
+oligonucleotide or plasmid) and is most efficient in S/G2 phase of the cell cycle.
+HDR efficiency is substantially lower than NHEJ in most contexts (typically 1-10%
+without cell cycle synchronization).
+
+BASE EDITING AND PRIME EDITING
+Base editors are Cas9 variants fused to deaminase enzymes. Cytosine base editors
+(CBEs) convert C•G to T•A; adenine base editors (ABEs) convert A•T to G•C. Base
+editors do not create DSBs and have a narrower editing window (approximately 4-8
+nucleotides within the protospacer).
+
+Prime editing uses a nickase Cas9 (nCas9, with RuvC domain inactivated) fused to
+a reverse transcriptase. The prime editing guide RNA (pegRNA) contains both the
+spacer sequence and an RT template encoding the desired edit. Prime editing can
+install all 12 types of point mutations, small insertions, and small deletions
+without DSBs or donor templates.
+
+OFF-TARGET EFFECTS
+Cas9 can bind and cleave sequences with up to 5 mismatches to the gRNA, particularly
+if mismatches are in the PAM-distal region (bases 13-20 of the spacer). Off-target
+cleavage at genomic sites bearing partial complementarity is a key safety concern
+for clinical applications. High-fidelity SpCas9 variants (eSpCas9, SpCas9-HF1,
+HypaCas9) reduce off-target activity by weakening non-specific DNA contacts while
+preserving on-target efficiency.
+
+DELIVERY METHODS
+Plasmid DNA transfection: High off-target risk due to prolonged Cas9 expression.
+Viral vectors (AAV, lentivirus): High efficiency in vivo; AAV has a 4.7 kb cargo
+limit that constrains SpCas9 (4.2 kb coding sequence) delivery with gRNA.
+Ribonucleoprotein (RNP) electroporation: Preferred for ex vivo editing; transient
+Cas9 exposure reduces off-target events; RNP degrades within 24-48 hours.
+Lipid nanoparticles (LNPs): Emerging preferred route for in vivo delivery of mRNA-
+encoded Cas9; used in clinical trials for transthyretin amyloidosis (NTLA-2001).
+
+CLINICAL APPLICATIONS
+Sickle cell disease and beta-thalassemia: BCL11A enhancer disruption reactivates
+fetal hemoglobin (HbF) expression. Casgevy (exagamglogene autotemcel), approved
+by the FDA in December 2023, is the first CRISPR therapy approved for human use.
+It uses ex vivo editing of patient hematopoietic stem cells.
+
+Transthyretin amyloidosis: NTLA-2001 targets the TTR gene in liver hepatocytes
+using LNP-delivered Cas9 mRNA. Phase 1 data showed >90% reduction in serum
+transthyretin levels after a single dose.
+
+KEY CONSTRAINTS
+- SpCas9 PAM requirement (NGG) limits targetable sites to roughly 1 per 8 bp in
+  the human genome on average.
+- The 20-nt gRNA spacer must avoid self-complementarity to prevent hairpin formation.
+- GC content of the spacer between 40-70% is associated with higher editing efficiency.
+- Chromatin accessibility at the target locus significantly affects editing efficiency;
+  heterochromatic regions are less efficiently edited.

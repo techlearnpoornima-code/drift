@@ -1,0 +1,31 @@
+1. CO2 CONCENTRATION HISTORY
+
+Atmospheric carbon dioxide concentration stood at approximately 280 parts per million (ppm) during the pre-industrial era, a level that remained stable for roughly 10,000 years before the Industrial Revolution. By 1958, when systematic measurements began at the Mauna Loa Observatory in Hawaii, CO2 had reached 316 ppm. The concentration crossed 400 ppm for the first time in recorded history in May 2013. As of 2024, the annual mean CO2 concentration is approximately 424 ppm, representing an increase of roughly 51 percent above pre-industrial levels. The current rate of increase is approximately 2.4 ppm per year. Ice core records extend the CO2 record back 800,000 years and confirm that pre-industrial concentrations never exceeded 300 ppm during that entire period.
+
+2. GREENHOUSE EFFECT AND RADIATIVE FORCING
+
+The greenhouse effect operates through selective absorption of outgoing longwave (infrared) radiation by atmospheric gases including CO2, methane (CH4), nitrous oxide (N2O), and water vapor. Solar shortwave radiation passes through the atmosphere relatively unimpeded and warms Earth's surface. The surface re-emits energy as longwave radiation, which greenhouse gases absorb and re-radiate in all directions, including back toward the surface. Radiative forcing quantifies the imbalance in the energy budget caused by a change in an atmospheric constituent, measured in watts per square meter (W/m²). The total anthropogenic radiative forcing from 1750 to 2019 is estimated at 2.72 W/m² (likely range 1.96–3.48 W/m²) according to IPCC AR6. CO2 alone accounts for approximately 2.16 W/m² of that total. A positive forcing causes warming; a negative forcing causes cooling.
+
+3. GLOBAL MEAN SURFACE TEMPERATURE ANOMALY
+
+The global mean surface temperature (GMST) has increased by approximately 1.1 to 1.2 degrees Celsius above the pre-industrial baseline (defined as the 1850–1900 average) as of the period 2011–2020, according to IPCC AR6. The year 2023 was confirmed as the warmest year on record, with the annual GMST anomaly reaching approximately 1.45°C above the pre-industrial baseline, driven in part by a developing El Niño event. The warming trend over the past century is approximately 0.18°C per decade. The last decade (2011–2020) was the warmest decade in the instrumental record, which extends back to 1850.
+
+4. ATTRIBUTION SCIENCE
+
+Detection and attribution studies use climate models and statistical methods to separate human-caused warming from natural variability and natural forcings. The IPCC AR6 concludes with unequivocal certainty that human influence has warmed the atmosphere, ocean, and land. Human-caused forcing is estimated to account for approximately 1.07°C of warming since 1850–1900, with natural forcings (solar variability and volcanic eruptions) contributing a net change close to zero over the same period. Without anthropogenic greenhouse gas emissions, model ensembles show the planet would have experienced slight cooling since 1950. The probability that observed warming since 1850 is due to natural variability alone is assessed as extremely unlikely, defined as less than 5 percent.
+
+5. SEA LEVEL RISE
+
+Global mean sea level has risen by approximately 20 centimeters since 1900. The current rate of rise, measured by satellite altimetry, is approximately 3.7 millimeters per year, and this rate has itself been accelerating — it was approximately 2.1 mm/yr in the 1990s. Sea level rise has two primary contributors: thermal expansion of seawater as it warms, and the addition of water mass from melting land ice. Thermal expansion currently accounts for roughly 40 percent of observed rise; contributions from the Greenland ice sheet, Antarctic ice sheet, and mountain glaciers account for the remaining 60 percent. Greenland alone is currently losing approximately 280 billion tonnes of ice per year.
+
+6. ARCTIC AMPLIFICATION
+
+The Arctic is warming two to four times faster than the global average, a phenomenon known as Arctic amplification. The primary driver is the ice-albedo feedback: as sea ice and snow cover retreat, darker ocean and land surfaces are exposed, absorbing more solar radiation and driving further warming. Arctic sea ice extent has declined by approximately 13 percent per decade since 1979 in the summer minimum. The Arctic has already warmed by approximately 3°C above its pre-industrial baseline. Permafrost thaw, which releases stored CO2 and CH4, and changes in atmospheric circulation patterns are additional consequences of Arctic amplification.
+
+7. CARBON BUDGET AND 1.5°C TARGET
+
+The remaining carbon budget is the total quantity of CO2 that can still be emitted globally while limiting warming to a specific temperature threshold. According to IPCC AR6, the remaining carbon budget for a 50 percent probability of limiting warming to 1.5°C was approximately 500 gigatonnes of CO2 (GtCO2) from the start of 2020. At current global emission rates of approximately 40 GtCO2 per year, this budget would be exhausted in roughly 12 years from 2020, placing the exhaustion point around 2032. The budget for a 67 percent probability of staying below 1.5°C was approximately 400 GtCO2 from 2020.
+
+8. TIPPING POINTS AND CLIMATE SENSITIVITY
+
+Several components of the climate system may cross tipping points — thresholds beyond which self-sustaining feedback loops drive irreversible change. The Atlantic Meridional Overturning Circulation (AMOC) has weakened by approximately 15 percent since the mid-twentieth century and may be approaching a tipping point that could cause abrupt reorganization. The Greenland ice sheet contains enough ice to raise global sea levels by approximately 7 meters if fully melted, and partial irreversible loss may be triggered between 1.5°C and 2°C of global warming. Amazon dieback, driven by deforestation and warming, risks converting up to 40 percent of the Amazon rainforest into savanna. Equilibrium climate sensitivity (ECS) — the long-term warming expected from a sustained doubling of CO2 — has a likely range of 2.5°C to 4°C according to IPCC AR6, with a best estimate of 3°C.

@@ -1,0 +1,56 @@
+Dopamine and the Reward System
+
+Dopamine is a monoamine neurotransmitter synthesised primarily in the substantia nigra and
+the ventral tegmental area (VTA). It plays a central role in the mesolimbic pathway, which
+connects the VTA to the nucleus accumbens and is the principal circuit underlying reward
+anticipation and motivation.
+
+Dopamine release in the nucleus accumbens signals reward prediction error — the difference
+between expected and received reward. When an outcome exceeds expectation, dopamine neurons
+increase their firing rate. When an outcome falls below expectation, firing rate drops below
+baseline. This mechanism was first described by Wolfram Schultz and colleagues in primate
+studies published in 1997.
+
+The prefrontal cortex receives dopaminergic projections via the mesocortical pathway. These
+projections modulate working memory, executive function, and impulse control. Dopamine
+operates on an inverted-U dose-response curve in the prefrontal cortex: too little impairs
+function, and too much also impairs it. This is why both dopamine deficiency and excess
+produce cognitive dysfunction.
+
+Chronic stress reduces dopamine synthesis and depletes available dopamine in the nucleus
+accumbens. This reduction is associated with anhedonia — the inability to experience pleasure
+from previously rewarding activities — which is a core symptom of major depressive disorder.
+
+Parkinson's disease results from the progressive loss of dopaminergic neurons in the substantia
+nigra. The motor symptoms of Parkinson's — tremor, rigidity, bradykinesia — emerge when
+approximately 60 to 80 percent of these neurons have been lost. The standard pharmacological
+treatment is levodopa (L-DOPA), a dopamine precursor that crosses the blood-brain barrier,
+where it is converted to dopamine.
+
+Addiction involves the dysregulation of dopamine signalling. Repeated exposure to addictive
+substances causes downregulation of dopamine D2 receptors in the striatum, reducing the
+sensitivity of the reward circuit to natural rewards and driving compulsive drug-seeking
+behaviour. This receptor downregulation has been documented in studies using PET imaging in
+humans with substance use disorder.
+
+Serotonin is a separate monoamine neurotransmitter synthesised primarily in the raphe nuclei
+of the brainstem. Unlike dopamine, serotonin's primary role is in mood regulation, sleep,
+and appetite — not in reward prediction. Confusing serotonin and dopamine pathways is a
+common error: SSRIs (selective serotonin reuptake inhibitors) act on serotonin, not on
+dopamine, and have minimal direct effect on the reward circuit.
+
+Oxytocin is a peptide hormone and neuropeptide produced in the hypothalamus and released by
+the posterior pituitary. It is associated with social bonding, trust, and maternal behaviour.
+Oxytocin is not a monoamine and does not function as a reward-prediction signal; attributing
+dopamine's reward functions to oxytocin is factually incorrect.
+
+Key facts summary:
+- Dopamine is synthesised in the substantia nigra and VTA.
+- The mesolimbic pathway (VTA to nucleus accumbens) underlies reward anticipation.
+- Reward prediction error is encoded by dopamine firing rate changes.
+- Chronic stress depletes dopamine and causes anhedonia.
+- Parkinson's disease involves loss of substantia nigra dopaminergic neurons.
+- Levodopa is the primary pharmacological treatment for Parkinson's.
+- Addiction causes D2 receptor downregulation in the striatum.
+- Serotonin, not dopamine, is the primary target of SSRIs.
+- Oxytocin is a peptide hormone, not a monoamine reward signal.

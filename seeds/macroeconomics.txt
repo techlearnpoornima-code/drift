@@ -1,0 +1,33 @@
+MACROECONOMICS AND MONETARY POLICY: A REFERENCE DOCUMENT
+
+1. THE FEDERAL RESERVE AND ITS DUAL MANDATE
+
+The Federal Reserve, commonly called the Fed, is the central bank of the United States. It was established by the Federal Reserve Act of 1913 and began operations in 1914. The Fed operates as a quasi-public institution with 12 regional Federal Reserve Banks overseen by the Board of Governors in Washington, D.C. By law, the Fed pursues a dual mandate: price stability and maximum sustainable employment. Price stability is formally defined as an average inflation rate of 2 percent over time, as measured by the Personal Consumption Expenditures (PCE) price index. Maximum employment is not assigned a fixed numerical target, as the Fed recognizes that the sustainable level of employment changes with structural economic conditions.
+
+2. THE FEDERAL FUNDS RATE AND THE FOMC
+
+The federal funds rate is the interest rate at which commercial banks lend reserve balances to each other overnight. It serves as the primary policy instrument of the Federal Reserve. The rate is set by the Federal Open Market Committee (FOMC), which meets eight times per year. The FOMC consists of the seven members of the Board of Governors, the president of the Federal Reserve Bank of New York, and four of the remaining eleven regional bank presidents on a rotating basis. The FOMC does not directly control the federal funds rate through mandate; instead it sets a target range and uses open market operations, the interest rate on reserve balances (IORB), and the overnight reverse repurchase agreement (ON RRP) facility to keep the effective rate within that range.
+
+3. THE 2022-2023 RATE HIKE CYCLE
+
+Beginning in March 2022, the FOMC initiated one of the most aggressive monetary tightening cycles in modern history in response to elevated inflation. The federal funds target rate began at 0.00 to 0.25 percent in early 2022. The FOMC raised the rate at eleven consecutive meetings between March 2022 and July 2023. By July 2023, the target range reached 5.25 to 5.50 percent, the highest level since January 2001. Individual rate increases included four consecutive 75-basis-point hikes between June and November 2022. The cumulative increase over the cycle was 525 basis points, or 5.25 percentage points, spanning approximately 16 months.
+
+4. INFLATION: CPI, PCE, AND THE 2% TARGET
+
+Inflation measures the rate at which the general price level of goods and services rises over time. In the United States, two primary indexes track consumer inflation. The Consumer Price Index (CPI), published by the Bureau of Labor Statistics, measures price changes for a fixed basket of goods and services purchased by urban consumers. The Personal Consumption Expenditures (PCE) price index, published by the Bureau of Economic Analysis, is broader and adjusts for changes in consumer behavior. The Fed officially targets 2 percent average inflation as measured by the PCE. US CPI inflation peaked at 9.1 percent year-over-year in June 2022, the highest reading since November 1981. Core PCE inflation, which excludes food and energy, peaked at approximately 5.4 percent in February 2022.
+
+5. THE MONEY SUPPLY: M1 AND M2
+
+The money supply is categorized into aggregates based on liquidity. M1 includes the most liquid forms of money: physical currency in circulation, demand deposits, and other checkable deposits. As of 2023, M1 in the United States exceeded 18 trillion dollars. M2 includes everything in M1 plus savings deposits, money market deposit accounts, and small-denomination time deposits under 100,000 dollars. M2 is a broader measure and is more commonly used as an indicator of overall monetary conditions. Quantitative easing (QE) is a monetary policy tool in which a central bank purchases longer-term securities, typically government bonds or mortgage-backed securities, from the open market. QE expands the monetary base by crediting the reserve accounts of selling institutions, increasing the supply of base money and putting downward pressure on long-term interest rates.
+
+6. THE YIELD CURVE AND RECESSION PREDICTION
+
+The yield curve plots interest rates on government bonds of equal credit quality across different maturities, typically from 3 months to 30 years. Under normal conditions the curve slopes upward, meaning longer-term bonds carry higher yields to compensate for greater duration risk. An inverted yield curve occurs when short-term rates exceed long-term rates, most commonly measured as the 10-year Treasury yield minus the 2-year Treasury yield turning negative. Every US recession since 1955 has been preceded by an inversion of this spread, making it one of the most closely watched leading economic indicators. The 2-year/10-year spread inverted in July 2022 and remained inverted through much of 2023 and into 2024.
+
+7. FISCAL POLICY VERSUS MONETARY POLICY
+
+Monetary policy refers to actions taken by the central bank to influence the money supply and interest rates to achieve macroeconomic objectives. Fiscal policy refers to government decisions about taxation and public expenditure, managed by the executive and legislative branches, not the central bank. In the United States, fiscal policy is conducted by Congress and the Treasury Department. Monetary and fiscal policy can work in the same direction, as during the COVID-19 pandemic when both the Fed cut rates to near zero and Congress passed over 5 trillion dollars in stimulus. They can also work at cross-purposes, as when tight monetary policy attempts to reduce inflation while expansionary fiscal policy increases aggregate demand.
+
+8. THE TAYLOR RULE AND MONETARY TRANSMISSION
+
+The Taylor Rule, proposed by economist John Taylor in 1993, is a descriptive formula suggesting how central banks should set their policy rate based on the deviation of inflation from its target and the deviation of output from its potential. The basic formulation sets the policy rate equal to the neutral real rate plus inflation, plus 0.5 times the inflation gap, plus 0.5 times the output gap. The transmission mechanism describes how changes in the policy rate affect the broader economy. Rate increases raise borrowing costs for households and businesses, reducing consumption and investment. They also tend to strengthen the domestic currency, reducing export competitiveness. Asset prices, particularly equities and housing, typically fall as discount rates rise. These effects combine to reduce aggregate demand, slow employment growth, and ultimately bring inflation lower, though the full effect operates with lags typically estimated at 12 to 18 months.

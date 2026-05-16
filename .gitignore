@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.python-version
+
+# uv
+# uv.lock is committed for reproducibility
+
+# Environment
+.env
+*.env.local
+
+# Node
+node_modules/
+dist/
+
+.npm
+
+# Logs
+*.log
+logs/
+
+# SQLite (runtime database, not source)
+*.db
+*.db-shm
+*.db-wal
+
+# Uploads (seed documents uploaded at runtime)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# others
+docs/
+benckmarks/generate_plots.py
+.claude
+CLAUDE.md
